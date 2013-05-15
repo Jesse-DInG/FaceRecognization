@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.dxj.face_recognization.activity.FrView
+        android:id="@+id/frv_rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="200sp" />
+
+    <RelativeLayout
+        android:id="@+id/result_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/txt_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:lines="4"
+            android:text="结果"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txt_result"
+            android:text="退出" />
+    </RelativeLayout>
+
+</FrameLayout>

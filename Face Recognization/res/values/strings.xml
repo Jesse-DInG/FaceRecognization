@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FaceRecognizationActivity!</string>
+    <string name="app_name">Face Recognization</string>
+	<string name="url">http://192.168.1.115:8092/FaceServer/FaceRecognization?wsdl</string>
+	<string name="namespace">http://dxj.com/</string>
+</resources>
